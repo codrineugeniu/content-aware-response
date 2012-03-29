@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>	
+	<title>pub/sub</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/pub-sub.js"></script>
+	<script src="js/spin.js"></script>
+	<script src="js/car.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="header">
+		<input id="btnRefresh" type="button" value="Refresh"/>		
+		<input id="btnAutoRefresh" type="button" value="Auto refresh"/>
+		<input id="btnClear" type="button" value="Clear"/>
+	</div>
+	<div id="content">
+		<div class="lcol">
+			<div id="box1" class="box">
+				<p class="title">
+				</p>
+				<ul></ul>
+			</div>
+			<div id="box2" class="box">
+				<p class="title">
+				</p>
+				<ul></ul>
+			</div>
+		</div>
+		<div class="rcol">
+			<div id="box3" class="box">
+				<p class="title">
+				</p>
+				<ul></ul>
+			</div>
+			<div id="box4" class="box">
+				<p class="title">
+				</p>
+				<ul></ul>
+			</div>
+		</div>		
+	</div>
+	<div id="footer"><input id="btnSend" type="button" value="Another channel"/> 
+		<span> pub/sub concept </span>
+	</div>
+</body>
+</html>
